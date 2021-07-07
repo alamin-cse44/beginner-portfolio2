@@ -1,0 +1,126 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    margin-bottom: 150px;
+    /* height: 500px; */
+}
+.hello-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width{
+    width: 40%;
+    padding: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+#name-text{
+  color: hsl(300, 87%, 49%);
+}
+p{
+    font-size: 18px;
+}
+
+.peter-img{
+    width: 400px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(138, 89, 54),rgb(245, 51, 17));
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.bio-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#bio{
+    color: #00ff7f;
+}
+
+.work-img{
+    width: 350px;
+    border-left: 2px solid;
+    background: white;
+    box-shadow: 10px 10px 40px rgb(44, 27, 27);
+    border-radius: 10px;
+}
+.img-div{
+    padding-left: 60px;
+}
+
+
+h2{
+    text-align: center;
+    color: rgb(211, 23, 23);
+    font-size: 30px;
+}
+
+.client-section div{
+    text-align: center;
+}
+
+.client{
+    /* background: darkblue; */
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact{
+    box-shadow: 10px 10px 40px rgb(233, 88, 233);
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 30px;
+    background: rgb(37, 14, 37);
+}
+.contact-section div{
+    color: white;
+    text-align: center;
+}
+.contact-section h3{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer p{
+    text-align: center;
+}
+footer span{
+    color: blue;
+}
+footer{
+    background: violet;
+    /* margin-bottom: 35px; */
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    padding: 10px;
+}
+
+
+input{
+    width: 40%;
+    height: 25px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+textarea{
+    width: 40%;
+    border-radius: 5px;
+}
+
+
+
